@@ -1,0 +1,106 @@
+body {
+    background-color: white;
+}
+h1 {
+    color: black;
+}
+p {
+    color: black;
+}
+
+table, th, td {
+    border: 1px solid black;
+}    
+
+.myDiv {
+    border: 5px outset #c5003c;
+    background-color: lightblue;
+    text-align: center;
+}
+
+.myDiv2 {
+    border: 5px outset black;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between; /* puts left and right sides apart */
+    align-items: center; /* only works vertically if container has height */
+}
+
+.left, .right, .center {
+    display: flex;
+    justify-content: center;
+    border: 5px outset #c5003c;
+    width: 30%;
+    height: auto; /* 20vh = 20% of the viewport height, auto so it doesnt look weird on mobile */
+    padding: 10px;
+    background-color: lightblue;
+}
+
+.left img,
+.center img,
+.right img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.responsive-img {
+    max-width: 100%;
+    max-height: 300px; /* Image wont be wider than its container */
+    height: auto; /* keep aspect ratio */
+    display: block; /* removes bottom whitespace */
+}
+
+.racoons {
+    display: flex;
+    justify-content: center; /* works for content horizontally */
+}
+
+.racoons video {
+    display: flex;
+    height: auto;
+    width: 40%;
+}
+
+.center-text {
+    text-align: center
+}
+
+#blueheader {
+    color: blue;
+}
+
+.styled-table {
+    width: 20%;
+    border-collapse: collapse; /*merge into a single border*/
+    /*border-spacing:*/
+    margin-top: 1rem; /*root em, equal font size of root element <html>, adds space (around 16px) more scalable than px*/
+}
+
+.styled-table th {
+    background-color: #c5003c;
+    color: #fff;
+}
+
+.styled-table tr:nth-child(even) {
+    background-color: #f3e600;
+}
+
+.styled-table tr:nth-child(odd) {
+    background-color: #55ead4;
+}
+
+.styled-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.youtube iframe {
+    width: 560px;
+    height: 315px;
+}
+
+.section {
+    text-align: center;
+}

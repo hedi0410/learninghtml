@@ -1,0 +1,15 @@
+.banner {
+    border: 5px outset #c5003c;
+    background: black;
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+    border: 2px outset #c5003c;
+    color: #c5003c;
+}
+
+#reference {
+    font-size: 12px;
+}

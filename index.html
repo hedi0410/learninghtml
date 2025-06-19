@@ -1,0 +1,319 @@
+<!--A simple project to learn the basics of html and to keep as reference-->
+<!--That's a comment-->
+<!--Try to always close a tag when you open one, ex: <p></p>-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Learning H</title>
+    <link rel="stylesheet" href="css/index.css"> <!--links the index.html file with the index.css file-->
+<style>
+    /* replaced by index.css */
+</style>
+</head>
+<body> <!--Put the content of the web page in here-->
+
+<h1>This is the web page Heading</h1>
+<p>This is <strong>the <sup>super</sup> super strong</strong> paragraph 1.</p>
+<p>This is <i>the mega cool</i> paragraph 2</p>
+<p>This is the <em>important</em> paragraph!!! <mark>IT IS IMPORTANT</mark>, as said by <b>the bold</b> Mr.Man in <cite>The Book</cite>, made with words <dfn>(a word is a bunch of letters)</dfn>.</p>
+<h2 id="blueheader">This is the blue Header</h2>
+<p>The color is blue because of the CSS code <code>color: blue</code> in the index.css file.</p>
+<p>Its <small>smaller</small> and weirder</p>
+<p>The best color is <del>red</del> blue!</p>
+<p>yes, <span style="color:blue">blue</span>.</p>
+
+<!--a <div> tag defines a division or a section. Its very useful to organise your web page-->
+
+<div class="details">
+<details>
+    <summary>Click to see who's the best blue animal</summary>
+    <p>Its the dolphin. It always has been the dolphin.</p>
+    <img src="images/dolphin.jpg" alt="Dolphin" width="20%">
+</details>
+</div>
+
+<h3>Links</h3>
+<p>A bunch of links</p>
+<a href="https://www.google.com/">Google.com</a>
+<a href="https://duckduckgo.com/">DuckDuckGo</a>
+
+<p>Click on the picture below to <b>download it</b>.</p> <!--It only works in a web server for security issues, will not work on local-->
+<a href="images/panda.jpg" download="panda">
+    <img class="responsive-img" src="images/panda.jpg" alt="panda"> 
+</a>
+<p>Click on the picture below to <b>view it</b>.</p>
+<a href="images/panda.jpg" target="_blank">
+    <img class="responsive-img" src="images/panda.jpg" alt="panda">
+</a>
+
+<ul> <!--List-->
+    <li>John</li>
+    <li>Jack</li>
+    <li>Joe</li>
+</ul>
+<ul> <!--List with values, for machine-readable translation-->
+    <li><data value="01">John</data></li>
+    <li><data value="02">Jack</data></li>
+    <li><data value="03">Joe</data></li>
+</ul>
+
+<p>line<br>break</p>
+
+<p>Button to click:</p>
+<button type="button" aria-label="Click for saber lion image"><!--aria-label is for screen readers--><!--You can put text here-->
+    <img src="images/saberlion.jpg" height="120">
+</button>
+
+<p>HTML5 Canvas</p>
+<canvas id="myCanvas">
+Your browser does not support the canvas tag. <!--only appears if theres a problem-->
+</canvas>
+
+<p>Columns with a caption</p>
+<table>
+    <colgroup>
+        <col span="1" style="background-color:green">
+        <col style="background-color:white">
+    </colgroup>
+    <caption>Costs</caption> <!--caption gives a title or label to the whole table-->
+    <tr> <!--table row-->
+        <th>OS</th> <!--table header-->
+        <th>Cost</th>
+    </tr>
+    <tr>
+        <td>Linux</td> <!--table data cell-->
+        <td>Time</td>
+    </tr>
+    <tr>
+        <td>MacOS</td>
+        <td>Money</td>
+    </tr>
+    <tr>
+        <td>Windows</td>
+        <td>???</td>
+    </tr>
+</table>
+
+<div>
+<p>Columns with a caption but better</p>
+<table class="styled-table">
+    <caption><b>Cost of living in Night City</b></caption>
+    <tr>
+        <th>Places</th>
+        <th>Cost of living</th>
+    </tr>
+    <tr>
+        <td>Northside</td>
+        <td>Cheap</td>
+    </tr>
+    <tr>
+        <td>Watson</td>
+        <td>Free</td>
+    </tr>
+    <tr>
+        <td>Japantown</td>
+        <td>Medium</td>
+    </tr>
+    <tr>
+        <td>The Glenn</td>
+        <td>Expensive</td>
+    </tr>
+    <tr>
+        <td>Corpo Plaza</td>
+        <td>Very Expensive</td>
+    </tr>
+
+</table>
+</div>
+
+<div class="myDiv">
+    <h2>This is a heading for the div element</h2>
+    <p>Some text for a div element</p>
+</div>
+
+<div class="myDiv2">
+    <h3>New Div</h3>
+    <p>Text</p>
+</div>
+
+<iframe src="page2.html"></iframe>
+
+<p>little slider</p>
+<input type="range">
+
+<div>
+<figure>
+    <img class="responsive-img" src="images/ceruleancoast.jpg" alt="Cerulean Coast">
+    <figcaption>Cerulean Coast, [Shadow of the Erdtree DLC, Elden Ring]</figcaption>
+</figure>
+</div>
+
+<p><abbr title="World of Warcraft">WoW</abbr> came out in 2004.</p> <!--Abbreviation-->
+
+<div class="bottom">
+<address>
+Visit us at:<br>
+Megabuilding 10, Watson, Night City<br>
+USA
+</address>
+</div>
+
+<div class="container">
+    <div class="left">
+        <p>Macbook</p>
+        <a href="images/macbook.webp" target="_blank">
+            <img src="images/macbook.webp" alt="Macbook">
+        </a>
+    </div>
+
+    <div class="center">
+        <p>Linux</p>
+        <a href="images/archbtw.jpg" target="_blank">
+            <img src="images/archbtw.jpg" alt="Linux">
+        </a>
+    </div>
+    
+    <div class="right">
+        <p>Windows</p>
+        <a href="images/windows.webp" target="_blank">
+            <img src="images/windows.webp" alt="Windows PC">
+        </a>
+    </div>
+    
+</div>
+
+<div class="guns">
+<p>Clickable gun</p>
+<img src="images/malorian.png" alt="Malorian Arms 3516" usemap="#malorian">
+
+<map name="malorian">
+    <area shape="rect" coords="35, 15, 340, 150" alt="Malorian Arms 3516" href="malorian.html"> <!--x1,y1,x2,y2 or x,y,radius-->
+</map>
+
+</div>
+
+<div class="sound">
+<p>Meow</p>
+<audio controls>
+    <source src="audio/meow.mp3" type="audio/mpeg">
+    Your browser does not support the audio tag.
+</audio>
+</div>
+
+<h2 class="center-text">Bunch of racoons</h2>
+<div class="racoons">
+<video controls>
+    <source src="videos/racoons.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+</div>
+
+<div class="dinosaurs">
+<label for="dinosaur">Choose a dinosaur from the list:</label>
+<input list="dinosaurs" name="dinosaur" id="dinosaur">
+
+<datalist id="dinosaurs"> <!--datalist id=* and input list=* must be the same-->
+    <option value="Crocodile">
+    <option value="Aligator">
+    <option value="Lizard">
+</datalist>
+</div>
+
+<div class="description-list">
+<p>Description list</p>
+<dl>
+    <dt>Mario<br>
+        <img src="images/mario.png" alt="Mario" width="20%">
+    </dt> <!--define terms-->
+    <dd>Main character</dd> <!--description-->
+    <dt>Bowser<br>
+        <img src="images/bowser.png" alt="Bowser" width="20%">
+    </dt>
+    <dd>Main Antagonist</dd>
+</dl>
+</div>
+
+<div class="form">
+<h3>Looking for staff</h3>
+<form action="#"> <!--/action_page.php, or use javascript, from onsubmit="handleForm(event)"-->
+    <fieldset>
+        <legend>Hiring form:</legend>
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname"><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br>
+        <label for="birthday">Birthday:</label>
+        <input type="date" id="birthday" name="birthday"><br>
+        <input type="submit" value="Submit">
+    </fieldset>
+
+</form>
+</div>
+
+<br>
+
+<div class="youtube">
+<h3>Embedded youtube video</h3>
+<iframe 
+    src="https://www.youtube.com/embed/jfd9CDbB548"
+    title="a racoon tries to catch falling snow"
+    frameborder="0"
+    allowfullscreen>
+</iframe>
+</div>
+
+<p>This is a veryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryvery<wbr>longwordthatwillbreakatspecific<wbr>placeswhenthebrowserwindowisresized.</p>
+<p>We open the gifts on <time datetime="2025-12-25T00:00">Christmas</time></p>
+<p>From <time>00:00</time> to <time>23:59</time>.</p>
+
+<div class="review">
+<h3>Review</h3>
+
+<form action="#">
+    <p><label for="review">Give us your review of the website:</label></p>
+    <textarea id="review" name="review" rows="4" cols="50"></textarea>
+    <br>
+    <input type="submit" value="Submit">
+</form>
+<p>Click the "Submit" button and the form will go absolutely nowhere. Thanks!</p>
+</div>
+
+<div class="circle">
+<h3>Here's a circle</h3>
+<svg width="100" height="100">
+    <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="cyan" />
+</svg>
+</div>
+
+<div class="select">
+<h3>Select your new animal</h3>
+<label for="animals">Choose an animal:</label>
+
+<select name="animals" id="animals">
+    <option value="racoon">Racoon</option>
+    <option value="dolphin">Dolphin</option>
+    <option value="cat">Cat</option>
+    <option value="dog">Dog</option>
+</select>
+</div>
+
+<div class="section">
+<section>
+    <h3>If you play street fighter in a mountain stage, are you still playing street fighter?</h3>
+    <p>Bro...</p>
+</section>
+<section>
+    <h3>If you can hear the silence, can you touch the air?</h3>
+    <p>Yo...</p>
+</section>
+</div>
+<br>
+<br>
+
+<script src="js/index.js"></script> <!--put the javascript script before </body> so it runs after the html elements are available.-->
+</body>
+</html>
