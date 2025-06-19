@@ -1,6 +1,8 @@
 # learninghtml
 A quick reference project to help learn html tags. Made while learning html, so it may contain beginner mistakes.
 
+I mainly used https://www.w3schools.com/tags/ to learn the tags.
+
 ## How to use
 
 Download the directory, then open index.html with your browser (Firefox, Chrome, Safari...) to open the main web page.
