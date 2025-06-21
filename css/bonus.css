@@ -1,0 +1,39 @@
+body {
+    background-color: #010f22;
+} /*changes the background color of the entire page*/
+
+#bigheader {
+    text-align: right; /*puts the text on the right of the page*/
+    color: #f82c6d; 
+    padding-right: 20px; /*adds some padding (empty space) on the right*/
+}
+h2 {
+    color: #d1f7ff; /*changes the color of h2 (header 2)*/
+}
+p {
+    font-size: 18px; /*changes the size of the font of <p> elements*/
+    color: #d1f7ff; /*changes the color of <p> elements*/
+}
+.first_div {
+    border: outset 5px #b6e5ee; /*adds a border, of the outset type (theres many types), 5 pixels, and changes the color*/
+    padding: 10px;
+    border-radius: 20px; /*makes the border more rounded*/
+    background-color: #021631; /*changes the background color of the div*/
+    width: 70%; /*changes the width to 70% of the parent container, or how big it is horizontally. It is possible to use px instead, ex: 500px.*/
+    height: auto; /*makes the height adapt, it changes automatically. [Note: this is the default behavior. Can be ommited]*/
+    margin: auto; /*center the div horizontally. [Note: there is a better way to do that with Flexbox, with more elements to it. Check it out!]*/
+    text-align: center; /*Puts the text in the center*/
+}
+.second_div {
+    border: groove 3px #b6e5ee;
+    padding: 10px;
+    border-radius: 20px; 
+    background-color: #0c0f13;
+    width: 10%;
+    margin: auto;
+    text-align: center;
+}
+#home_button {
+    color: #d1f7ff;
+    font-size: 20px;
+}

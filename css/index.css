@@ -94,7 +94,7 @@ table, th, td {
 
 .styled-table tr:hover {
     background-color: #f1f1f1;
-}
+} /* makes the box become grey when being hovered */
 
 .youtube iframe {
     width: 560px;
