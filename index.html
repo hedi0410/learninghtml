@@ -5,8 +5,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Learning H</title>
+    <meta charset="UTF-8"> <!--tells the browser that the webpage is encoded with UTF-8, so everything is displayed properly-->
+    <title>Learning Html</title>
     <link rel="stylesheet" href="css/index.css"> <!--links the index.html file with the index.css file-->
 <style>
     /* replaced by index.css */
@@ -14,10 +14,13 @@
 </head>
 <body> <!--Put the content of the web page in here-->
 
-<h1>This is the web page Heading</h1>
-<p>This is <strong>the <sup>super</sup> super strong</strong> paragraph 1.</p>
+<header>
+    <h1>This is the web page Heading</h1>
+</header>
+
+<p>This is <strong>the <sup>super</sup> strong</strong> paragraph 1.</p>
 <p>This is <i>the mega cool</i> paragraph 2</p>
-<p>This is the <em>important</em> paragraph!!! <mark>IT IS IMPORTANT</mark>, as said by <b>the bold</b> Mr.Man in <cite>The Book</cite>, made with words <dfn>(a word is a bunch of letters)</dfn>.</p>
+<p>This is the <em>important</em> paragraph!!! <mark>IT IS IMPORTANT</mark>, as said by <b>the bold</b> Mr.Author in <cite>The Book</cite>, made with words <dfn>(a word is a bunch of letters)</dfn>.</p>
 <h2 id="blueheader">This is the blue Header</h2>
 <p>The color is blue because of the CSS code <code>color: blue</code> in the index.css file.</p>
 <p>Its <small>smaller</small> and weirder</p>
@@ -169,14 +172,14 @@ USA
     </div>
 
     <div class="center">
-        <p>Linux</p>
+        <p>Linux PC</p>
         <a href="images/archbtw.jpg" target="_blank">
             <img src="images/archbtw.jpg" alt="Linux">
         </a>
     </div>
     
     <div class="right">
-        <p>Windows</p>
+        <p>Windows PC</p>
         <a href="images/windows.webp" target="_blank">
             <img src="images/windows.webp" alt="Windows PC">
         </a>
@@ -303,17 +306,19 @@ USA
 
 <div class="section">
 <section>
-    <h3>If you play street fighter in a mountain stage, are you still playing street fighter?</h3>
-    <p>Bro...</p>
-</section>
-<section>
     <h3>If you can hear the silence, can you touch the air?</h3>
-    <p>Yo...</p>
+    <p>...</p>
 </section>
 </div>
+
+<div style="text-align:center;">
+<a href="bonus.html">Bonus: Adding some CSS</a>
+</div>
+
 <br>
 <br>
 
-<script src="js/index.js"></script> <!--put the javascript script before </body> so it runs after the html elements are available.-->
+<script src="js/index.js"></script> <!--this link "index.html" to "index.js" to use javascript-->
+<!--put the javascript script before </body> so it runs after the html elements are available.-->
 </body>
 </html>
