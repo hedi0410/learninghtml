@@ -8,7 +8,10 @@ I mainly used https://www.w3schools.com/tags/ to learn the tags.
 Download the directory, then open index.html with your browser (Firefox, Chrome, Safari...) to open the main web page.
 Open the directory (learninghtml) with your code editor (VS Code, Vim...) to experiment with the files.
 
-To download the directory on MacOS and Linux :
+To download the directory on MacOS, Windows and Linux:
+Click Code at the top of the page, and Download zip.
+
+To clone the directory on MacOS and Linux:
 ```bash
 git clone https://github.com/hedi0410/learninghtml.git
 ```
